@@ -1,0 +1,16 @@
+##################################
+#
+# Screen rc for robots and humans
+# 
+#################################
+
+# turn off interactive message
+startup_message off
+
+# hug big humongus bag of scrollback with the lines
+defscrollback 5000
+
+# bottom text
+hardstatus on
+hardstatus alwayslastline
+hardstatus string "%{.bW}%-w%{.rW}%n %t%{-}%+w %=%{..G} %H %{..Y} %m/%d %C% "
